@@ -1,3 +1,5 @@
+package models;
+
 public class ContaPoupanca extends Conta {
 
     public ContaPoupanca(Cliente cliente) {
@@ -7,5 +9,6 @@ public class ContaPoupanca extends Conta {
     public void imprimirExtrato() {
         System.out.println("=== Extrato Conta Poupanca ===");
         super.imprimirInfosComuns();
+        System.out.println("==============================");
     }
 }

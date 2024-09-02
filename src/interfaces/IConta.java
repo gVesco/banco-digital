@@ -1,3 +1,5 @@
+package interfaces;
+
 public interface IConta {
 
     void sacar(double Valor);
@@ -8,4 +10,5 @@ public interface IConta {
 
     void imprimirExtrato();
 
+    double checaSaldo(double valor);
 }
